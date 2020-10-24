@@ -11,8 +11,9 @@
 
     <modules>
         <module>zuul-server</module>
-        <module>eureka-server</module>
+        
         <module>echo-service</module>
+        <module>eureka-server</module>
     </modules>
 
 </project>
