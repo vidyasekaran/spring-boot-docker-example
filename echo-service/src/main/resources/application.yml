@@ -1,5 +1,5 @@
 server:
-  port: ${server_port:9098}
+  port: ${server_port:9099}
 
 eureka:
   instance:
