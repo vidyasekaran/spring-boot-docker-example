@@ -9,7 +9,7 @@ eureka:
 zuul:
   prefix: /api
 #  Uncomment to disable services automatically registering in Zuul
-#  ignoredServices: '*'
+  ignoredServices: '*'
 
   routes:
     echo-by-dns:
