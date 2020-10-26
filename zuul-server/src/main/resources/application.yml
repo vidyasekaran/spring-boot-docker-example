@@ -14,7 +14,7 @@ zuul:
   routes:
     echo-by-dns:
       path: /echo-service-by-dns/**
-      url: http://echo-service:9099
+      url: http://13.232.14.237:9099/
 
 spring:
   application:
