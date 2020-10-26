@@ -47,5 +47,3 @@ http://<\<docker-host>\>:9090/routes | Zuul route definitions
 http://<\<docker-host>\>:9090/api/echo-service/echo | Echo service through Zuul api gateway, looked up from Eureka registry
 http://<\<docker-host>\>:9090/api/echo-service/echo/remote-echo | Echo service calling remote echo services
 http://<\<docker-host>\>:9090/api/echo-service-by-dns/echo/remote-echo | Echo service through Zuul api gateway, located by DNS entry http://echo-service:9098 
-
-
